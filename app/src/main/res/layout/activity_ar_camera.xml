@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/arcam_layout">
+
+    <fragment
+        android:id="@+id/ar_cam_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="arnavigation.appsan.com.myapplication.ar.ArFragmentSupport">
+        </fragment>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/cam_grad_top" />
+
+        <TextView
+            android:id="@+id/ar_source_dest"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/src_dest_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="Source -> Destination"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/ar_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/cam_grad_bottom" />
+
+        <TextView
+            android:id="@+id/ar_dir_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/src_dest_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="Dist"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ar_dir_time"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignBaseline="@+id/ar_dir_distance"
+            android:layout_alignBottom="@+id/ar_dir_distance"
+            android:layout_marginRight="8dp"
+            android:layout_toStartOf="@+id/ar_dir_distance"
+            android:background="@drawable/src_dest_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="time"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="317dp"
+            android:layout_marginBottom="14dp"
+            android:text="0"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</FrameLayout>
