@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Developed By Accionlabs"
+                android:text="Developed By Appsan Technologies"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold" />
 
