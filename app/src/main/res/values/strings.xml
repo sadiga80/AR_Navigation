@@ -18,7 +18,7 @@
     <string name="slide3_desc">View Places around you in AR and in realtime </string>
 
     <string name="lato_light">fonts/Lato-Light.ttf</string>
-    <string name="google_maps_key">your API key</string>
+    <string name="google_maps_key">AIzaSyCHo0XDHNtyFmMOqNREg1A3FK_NhzCSwm8</string>
 
     <!--POI Names-->
     <string name="atm">atm</string>

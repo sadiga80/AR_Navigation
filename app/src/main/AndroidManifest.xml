@@ -12,6 +12,9 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -58,7 +61,7 @@
                 android:value=".MapsActivity" />
 
         </activity>
-
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
     </application>
 
 </manifest>
